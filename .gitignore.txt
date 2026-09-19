@@ -1,0 +1,23 @@
+# Vivado-generated project tree -- this is regenerable (rebuild via the GUI
+# steps in docs/SETUP.md), never commit it directly.
+ml_dsa_osh_baseline/
+*.jou
+*.log
+*.str
+*.backup.jou
+*.backup.log
+.Xil/
+*.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.gen/
+webtalk*
+*.pb
+*.wdb
+*.dcp
+
+# XSIM working files if ever generated outside the project folder
+xsim.dir/
