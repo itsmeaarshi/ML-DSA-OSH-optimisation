@@ -21,3 +21,8 @@ webtalk*
 
 # XSIM working files if ever generated outside the project folder
 xsim.dir/
+
+# Power analysis outputs -- large, regenerable via the SAIF capture steps
+# in docs/POWER_OPTIMIZATION_METHODOLOGY.md. Never commit these.
+Power_Reports/*.saif
+*.saif

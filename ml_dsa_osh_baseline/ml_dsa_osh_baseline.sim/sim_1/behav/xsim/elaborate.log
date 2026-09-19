@@ -1,78 +1,9 @@
 Vivado Simulator v2026.1
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: D:/AMDXilinx/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_verify_top_behav xil_defaultlib.tb_verify_top xil_defaultlib.glbl -log elaborate.log 
+Running: D:/AMDXilinx/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_sign_top_behav xil_defaultlib.tb_sign_top xil_defaultlib.glbl -log elaborate.log 
 INFO: [XSIM 43-3493] Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
 Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling package std.standard
-Compiling package std.textio
-Compiling package ieee.std_logic_1164
-Compiling package xil_defaultlib.sha3_pkg
-Compiling package xil_defaultlib.keccak_pkg
-Compiling package ieee.std_logic_arith
-Compiling package ieee.std_logic_unsigned
-Compiling package ieee.numeric_std
-Compiling module xil_defaultlib.dual_port_ram(LENGTH=4096)
-Compiling module xil_defaultlib.dual_port_ram
-Compiling module xil_defaultlib.norm_check
-Compiling architecture struct of entity xil_defaultlib.sr_reg [sr_reg_default]
-Compiling architecture countern of entity xil_defaultlib.countern [\countern(n=5,style=1)\]
-Compiling architecture nocounter of entity xil_defaultlib.keccak_fsm1 [keccak_fsm1_default]
-Compiling architecture struct of entity xil_defaultlib.sr_reg [\sr_reg(init='1')\]
-Compiling architecture beh of entity xil_defaultlib.keccak_fsm2 [keccak_fsm2_default]
-Compiling architecture countern of entity xil_defaultlib.countern [\countern(n=11,style=1)\]
-Compiling architecture beh of entity xil_defaultlib.sha3_fsm3 [sha3_fsm3_default]
-Compiling architecture struct of entity xil_defaultlib.keccak_control [keccak_control_default]
-Compiling architecture struct of entity xil_defaultlib.keccak_bytepad [keccak_bytepad_default]
-Compiling architecture behavioral of entity xil_defaultlib.sipo [\sipo(n=1344,m=64)\]
-Compiling architecture struct of entity xil_defaultlib.regn [\regn(n=1600,init=(others=>'0'))...]
-Compiling architecture keccak_cons of entity xil_defaultlib.keccak_cons [keccak_cons_default]
-Compiling architecture mrogawski_round of entity xil_defaultlib.keccak_round [keccak_round_default]
-Compiling architecture behavioral of entity xil_defaultlib.piso [\piso(n=1344,m=64)\]
-Compiling architecture struct of entity xil_defaultlib.keccak_datapath [\keccak_datapath(version=3)\]
-Compiling architecture structure of entity xil_defaultlib.keccak_top [keccak_top_default]
-Compiling module xil_defaultlib.rejection_s
-Compiling module xil_defaultlib.sampler_s
-Compiling module xil_defaultlib.gen_s_default
-Compiling module xil_defaultlib.gen_c
-Compiling module xil_defaultlib.rejection_a
-Compiling module xil_defaultlib.sampler_a_ext
-Compiling module xil_defaultlib.gen_a_ext_default
-Compiling module xil_defaultlib.rejection_y
-Compiling module xil_defaultlib.sampler_y_ext
-Compiling module xil_defaultlib.expandmask_ext
-Compiling module xil_defaultlib.decoder
-Compiling module xil_defaultlib.uncenter_coeff
-Compiling module xil_defaultlib.zero_strip
-Compiling module xil_defaultlib.encoder_default
-Compiling module xil_defaultlib.decomp_map1
-Compiling module xil_defaultlib.coeff_decomposer
-Compiling module xil_defaultlib.decomposer_unit_default
-Compiling module xil_defaultlib.usehint
-Compiling module xil_defaultlib.makehint
-Compiling module xil_defaultlib.address_resolver
-Compiling module xil_defaultlib.twiddle_resolver
-Compiling module xil_defaultlib.address_unit
-Compiling module xil_defaultlib.dual_port_rom(WIDTH=24,LENGTH=25...
-Compiling module xil_defaultlib.DecoupledStage
-Compiling module xil_defaultlib.DecoupledStage_1
-Compiling module xil_defaultlib.DecoupledStage_2
-Compiling module xil_defaultlib.Barrett
-Compiling module xil_defaultlib.butterfly
-Compiling module xil_defaultlib.butterfly2x2
-Compiling module xil_defaultlib.NTT_PIPO
-Compiling module xil_defaultlib.ntt_fifo_piso
-Compiling module xil_defaultlib.ntt_fifo_piso(DEPTH=6)
-Compiling module xil_defaultlib.ntt_fifo_piso(DEPTH=5)
-Compiling module xil_defaultlib.ntt_fifo_piso(DEPTH=7)
-Compiling module xil_defaultlib.ntt_fifo
-Compiling module xil_defaultlib.operation_module
-Compiling module xil_defaultlib.combined_top_default
-Compiling module xil_defaultlib.tb_verify_top
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot tb_verify_top_behav
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
