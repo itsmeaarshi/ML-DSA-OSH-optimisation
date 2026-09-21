@@ -48,4 +48,3 @@ ML-DSA-V.Verify, KAT #13 completed in                14638 clock cycles
 ML-DSA-V.Verify, KAT #14 completed in                14642 clock cycles
 Testbench done. ML-DSA-V completed in avg.       14642 clock cycles
 $finish called at time : 4652270 ns : File "C:/Project1_VIT/ML-DSA-OSH-main/ref_combined/src_tb/tb_verify_top.v" Line 660
-INFO: xsimkernel Simulation Memory Usage: 34784 KB (Peak: 34784 KB), Simulation CPU Usage: 274874 ms

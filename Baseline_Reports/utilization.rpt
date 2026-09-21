@@ -1,0 +1,163 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Sun Sep 20 23:43:33 2026
+| Host         : Aarshia running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -file C:/Project1_VIT/ML-DSA-OSH-main/Baseline_Reports/utilization.rpt
+| Design       : combined_top
+| Device       : xc7a200tfbg676-2
+| Speed File   : -2
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++------------------------------+----------------------------------+------------+------------+---------+------+-------+--------+--------+------------+
+|           Instance           |              Module              | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs  | RAMB36 | RAMB18 | DSP Blocks |
++------------------------------+----------------------------------+------------+------------+---------+------+-------+--------+--------+------------+
+| combined_top                 |                            (top) |      55107 |      53692 |       0 | 1415 | 29369 |     29 |      0 |         16 |
+|   (combined_top)             |                            (top) |        954 |         79 |       0 |  875 |  1470 |      0 |      0 |          0 |
+|   BRAM_0                     |                    dual_port_ram |        348 |        348 |       0 |    0 |     0 |     11 |      0 |          0 |
+|   BRAM_1                     |    dual_port_ram__parameterized0 |        437 |        437 |       0 |    0 |     0 |      3 |      0 |          0 |
+|   BRAM_2                     |  dual_port_ram__parameterized0_0 |        505 |        505 |       0 |    0 |     0 |      3 |      0 |          0 |
+|   BRAM_3                     |  dual_port_ram__parameterized0_1 |        195 |        195 |       0 |    0 |     0 |      3 |      0 |          0 |
+|   BRAM_4                     |  dual_port_ram__parameterized0_2 |         59 |         59 |       0 |    0 |     0 |      3 |      0 |          0 |
+|   BRAM_5                     |  dual_port_ram__parameterized0_3 |        498 |        498 |       0 |    0 |     0 |      3 |      0 |          0 |
+|   BRAM_6                     |  dual_port_ram__parameterized0_4 |        147 |        147 |       0 |    0 |     0 |      3 |      0 |          0 |
+|   CHALLENGE_SAMPLER          |                            gen_c |       2326 |       2294 |       0 |   32 |  1328 |      0 |      0 |          0 |
+|   CREATE_HINT                |                         makehint |       2513 |       2513 |       0 |    0 |   932 |      0 |      0 |          0 |
+|   DECODER                    |                          decoder |       2406 |       2406 |       0 |    0 |   238 |      0 |      0 |          0 |
+|   DECOMPOSER                 |                  decomposer_unit |       1806 |       1790 |       0 |   16 |   670 |      0 |      0 |          0 |
+|     genblk1[0].COEFF_DECOMP  |                 coeff_decomposer |        456 |        452 |       0 |    4 |   170 |      0 |      0 |          0 |
+|     genblk1[1].COEFF_DECOMP  |             coeff_decomposer_107 |        472 |        468 |       0 |    4 |   170 |      0 |      0 |          0 |
+|     genblk1[2].COEFF_DECOMP  |             coeff_decomposer_108 |        438 |        434 |       0 |    4 |   165 |      0 |      0 |          0 |
+|     genblk1[3].COEFF_DECOMP  |             coeff_decomposer_109 |        447 |        443 |       0 |    4 |   165 |      0 |      0 |          0 |
+|   ENCODER                    |                          encoder |       2207 |       2207 |       0 |    0 |   462 |      0 |      0 |          0 |
+|   GEN_Y                      |                   expandmask_ext |       1999 |       1935 |       0 |   64 |   628 |      0 |      0 |          0 |
+|     (GEN_Y)                  |                   expandmask_ext |        395 |        363 |       0 |   32 |   246 |      0 |      0 |          0 |
+|     SAMPLER_Y                |                    sampler_y_ext |       1604 |       1572 |       0 |   32 |   382 |      0 |      0 |          0 |
+|       (SAMPLER_Y)            |                    sampler_y_ext |        234 |        202 |       0 |   32 |   150 |      0 |      0 |          0 |
+|       REJ                    |                      rejection_y |       1371 |       1371 |       0 |    0 |   232 |      0 |      0 |          0 |
+|   HINT_APPLIER               |                          usehint |       6572 |       6572 |       0 |    0 |  2819 |      0 |      0 |          0 |
+|   PUBLIC_SAMPLER             |                        gen_a_ext |       1869 |       1805 |       0 |   64 |   619 |      0 |      0 |          0 |
+|     (PUBLIC_SAMPLER)         |                        gen_a_ext |         58 |         58 |       0 |    0 |     9 |      0 |      0 |          0 |
+|     genblk2[0].SAMPLER_A     |                    sampler_a_ext |        927 |        895 |       0 |   32 |   305 |      0 |      0 |          0 |
+|       (genblk2[0].SAMPLER_A) |                    sampler_a_ext |        132 |        100 |       0 |   32 |    79 |      0 |      0 |          0 |
+|       REJ                    |                  rejection_a_106 |        795 |        795 |       0 |    0 |   226 |      0 |      0 |          0 |
+|     genblk2[1].SAMPLER_A     |                sampler_a_ext_105 |        884 |        852 |       0 |   32 |   305 |      0 |      0 |          0 |
+|       (genblk2[1].SAMPLER_A) |                sampler_a_ext_105 |        150 |        118 |       0 |   32 |    79 |      0 |      0 |          0 |
+|       REJ                    |                      rejection_a |        735 |        735 |       0 |    0 |   226 |      0 |      0 |          0 |
+|   SECRET_SAMPLER             |                            gen_s |       1584 |       1552 |       0 |   32 |   390 |      0 |      0 |          0 |
+|     genblk2[0].SAMPLER_S     |                        sampler_s |       1542 |       1510 |       0 |   32 |   380 |      0 |      0 |          0 |
+|       (genblk2[0].SAMPLER_S) |                        sampler_s |        222 |        190 |       0 |   32 |    85 |      0 |      0 |          0 |
+|       REJ                    |                      rejection_s |       1320 |       1320 |       0 |    0 |   295 |      0 |      0 |          0 |
+|   genblk1[0].KECCAK          |                       keccak_top |       5898 |       5898 |       0 |    0 |  4451 |      0 |      0 |          0 |
+|     control_gen              |                keccak_control_84 |       1294 |       1294 |       0 |    0 |    95 |      0 |      0 |          0 |
+|       fsm2_gen               |                   keccak_fsm2_92 |       1186 |       1186 |       0 |    0 |    62 |      0 |      0 |          0 |
+|         (fsm2_gen)           |                   keccak_fsm2_92 |       1160 |       1160 |       0 |    0 |    56 |      0 |      0 |          0 |
+|       fsm1_gen               |                   keccak_fsm1_91 |         88 |         88 |       0 |    0 |    11 |      0 |      0 |          0 |
+|         (fsm1_gen)           |                   keccak_fsm1_91 |         63 |         63 |       0 |    0 |     3 |      0 |      0 |          0 |
+|     datapath_gen             |               keccak_datapath_85 |       4608 |       4608 |       0 |    0 |  4356 |      0 |      0 |          0 |
+|       (datapath_gen)         |               keccak_datapath_85 |         28 |         28 |       0 |    0 |    63 |      0 |      0 |          0 |
+|       in_buf                 |                          sipo_87 |        465 |        465 |       0 |    0 |  1344 |      0 |      0 |          0 |
+|       out_buf                |                          piso_88 |          0 |          0 |       0 |    0 |  1344 |      0 |      0 |          0 |
+|       pad_unit               |                keccak_bytepad_89 |         56 |         56 |       0 |    0 |     0 |      0 |      0 |          0 |
+|       state                  |                          regn_90 |       4049 |       4049 |       0 |    0 |  1600 |      0 |      0 |          0 |
+|   genblk1[1].KECCAK          |                     keccak_top_5 |       5919 |       5919 |       0 |    0 |  4458 |      0 |      0 |          0 |
+|     control_gen              |                keccak_control_63 |       1313 |       1313 |       0 |    0 |   102 |      0 |      0 |          0 |
+|       fsm2_gen               |                   keccak_fsm2_71 |       1199 |       1199 |       0 |    0 |    62 |      0 |      0 |          0 |
+|         (fsm2_gen)           |                   keccak_fsm2_71 |       1173 |       1173 |       0 |    0 |    56 |      0 |      0 |          0 |
+|       fsm1_gen               |                   keccak_fsm1_70 |         92 |         92 |       0 |    0 |    11 |      0 |      0 |          0 |
+|         (fsm1_gen)           |                   keccak_fsm1_70 |         63 |         63 |       0 |    0 |     3 |      0 |      0 |          0 |
+|     datapath_gen             |               keccak_datapath_64 |       4610 |       4610 |       0 |    0 |  4356 |      0 |      0 |          0 |
+|       (datapath_gen)         |               keccak_datapath_64 |         28 |         28 |       0 |    0 |    63 |      0 |      0 |          0 |
+|       in_buf                 |                          sipo_66 |        467 |        467 |       0 |    0 |  1344 |      0 |      0 |          0 |
+|       out_buf                |                          piso_67 |          0 |          0 |       0 |    0 |  1344 |      0 |      0 |          0 |
+|       pad_unit               |                keccak_bytepad_68 |         56 |         56 |       0 |    0 |     0 |      0 |      0 |          0 |
+|       state                  |                          regn_69 |       4049 |       4049 |       0 |    0 |  1600 |      0 |      0 |          0 |
+|   genblk1[2].KECCAK          |                     keccak_top_6 |       6656 |       6656 |       0 |    0 |  4460 |      0 |      0 |          0 |
+|     control_gen              |                   keccak_control |       1783 |       1783 |       0 |    0 |   104 |      0 |      0 |          0 |
+|       fsm3_gen               |                        sha3_fsm3 |         77 |         77 |       0 |    0 |    12 |      0 |      0 |          0 |
+|       fsm1_gen               |                      keccak_fsm1 |        116 |        116 |       0 |    0 |    11 |      0 |      0 |          0 |
+|         (fsm1_gen)           |                      keccak_fsm1 |         63 |         63 |       0 |    0 |     3 |      0 |      0 |          0 |
+|       fsm2_gen               |                      keccak_fsm2 |       1589 |       1589 |       0 |    0 |    62 |      0 |      0 |          0 |
+|         (fsm2_gen)           |                      keccak_fsm2 |       1563 |       1563 |       0 |    0 |    56 |      0 |      0 |          0 |
+|     datapath_gen             |                  keccak_datapath |       4877 |       4877 |       0 |    0 |  4356 |      0 |      0 |          0 |
+|       (datapath_gen)         |                  keccak_datapath |         28 |         28 |       0 |    0 |    63 |      0 |      0 |          0 |
+|       in_buf                 |                             sipo |        671 |        671 |       0 |    0 |  1344 |      0 |      0 |          0 |
+|       out_buf                |                             piso |         59 |         59 |       0 |    0 |  1344 |      0 |      0 |          0 |
+|       pad_unit               |                   keccak_bytepad |         56 |         56 |       0 |    0 |     0 |      0 |      0 |          0 |
+|       state                  |                             regn |       4053 |       4053 |       0 |    0 |  1600 |      0 |      0 |          0 |
+|   genblk2[0].OPERATOR        |                 operation_module |       5066 |       4900 |       0 |  166 |  3222 |      0 |      0 |          8 |
+|     (genblk2[0].OPERATOR)    |                 operation_module |        172 |        154 |       0 |   18 |    60 |      0 |      0 |          0 |
+|     ADDR                     |                  address_unit_24 |        346 |        346 |       0 |    0 |    87 |      0 |      0 |          0 |
+|       (ADDR)                 |                  address_unit_24 |        167 |        167 |       0 |    0 |    22 |      0 |      0 |          0 |
+|       TWIDDLE_RESOLVE        |              twiddle_resolver_54 |        180 |        180 |       0 |    0 |    65 |      0 |      0 |          0 |
+|     BF_CIRCUIT               |                  butterfly2x2_25 |       3110 |       3010 |       0 |  100 |  2265 |      0 |      0 |          8 |
+|       (BF_CIRCUIT)           |                  butterfly2x2_25 |         72 |         24 |       0 |   48 |   240 |      0 |      0 |          0 |
+|       BF1_1                  |                     butterfly_34 |        659 |        645 |       0 |   14 |   507 |      0 |      0 |          2 |
+|         (BF1_1)              |                     butterfly_34 |        547 |        533 |       0 |   14 |   388 |      0 |      0 |          2 |
+|         REDUCER              |                       Barrett_50 |        112 |        112 |       0 |    0 |   119 |      0 |      0 |          0 |
+|           (REDUCER)          |                       Barrett_50 |         55 |         55 |       0 |    0 |     0 |      0 |      0 |          0 |
+|       BF1_2                  |                     butterfly_35 |        634 |        622 |       0 |   12 |   509 |      0 |      0 |          2 |
+|         (BF1_2)              |                     butterfly_35 |        522 |        510 |       0 |   12 |   388 |      0 |      0 |          2 |
+|         REDUCER              |                       Barrett_46 |        112 |        112 |       0 |    0 |   121 |      0 |      0 |          0 |
+|           (REDUCER)          |                       Barrett_46 |         55 |         55 |       0 |    0 |     0 |      0 |      0 |          0 |
+|       BF2_1                  |                     butterfly_36 |        960 |        946 |       0 |   14 |   507 |      0 |      0 |          2 |
+|         (BF2_1)              |                     butterfly_36 |        848 |        834 |       0 |   14 |   388 |      0 |      0 |          2 |
+|         REDUCER              |                       Barrett_42 |        112 |        112 |       0 |    0 |   119 |      0 |      0 |          0 |
+|           (REDUCER)          |                       Barrett_42 |         55 |         55 |       0 |    0 |     0 |      0 |      0 |          0 |
+|       BF2_2                  |                     butterfly_37 |        786 |        774 |       0 |   12 |   502 |      0 |      0 |          2 |
+|         (BF2_2)              |                     butterfly_37 |        674 |        662 |       0 |   12 |   383 |      0 |      0 |          2 |
+|         REDUCER              |                       Barrett_38 |        112 |        112 |       0 |    0 |   119 |      0 |      0 |          0 |
+|           (REDUCER)          |                       Barrett_38 |         55 |         55 |       0 |    0 |     0 |      0 |      0 |          0 |
+|     DELAY_TWIDDLE            |                      NTT_PIPO_26 |        165 |        117 |       0 |   48 |    92 |      0 |      0 |          0 |
+|     FIFO                     |                      ntt_fifo_27 |        915 |        915 |       0 |    0 |   626 |      0 |      0 |          0 |
+|       PISO_D                 | ntt_fifo_piso__parameterized2_33 |        126 |        126 |       0 |    0 |   192 |      0 |      0 |          0 |
+|       PISO_A                 |                 ntt_fifo_piso_30 |         74 |         74 |       0 |    0 |   120 |      0 |      0 |          0 |
+|       PISO_B                 | ntt_fifo_piso__parameterized0_31 |        613 |        613 |       0 |    0 |   168 |      0 |      0 |          0 |
+|       PISO_C                 | ntt_fifo_piso__parameterized1_32 |         98 |         98 |       0 |    0 |   144 |      0 |      0 |          0 |
+|     TWIDDLE_RAM1             |                 dual_port_rom_28 |        184 |        184 |       0 |    0 |    46 |      0 |      0 |          0 |
+|     TWIDDLE_RAM2             |                 dual_port_rom_29 |        185 |        185 |       0 |    0 |    46 |      0 |      0 |          0 |
+|   genblk2[1].OPERATOR        |               operation_module_7 |       5189 |       5023 |       0 |  166 |  3222 |      0 |      0 |          8 |
+|     (genblk2[1].OPERATOR)    |               operation_module_7 |        105 |         87 |       0 |   18 |    60 |      0 |      0 |          0 |
+|     ADDR                     |                     address_unit |        308 |        308 |       0 |    0 |    87 |      0 |      0 |          0 |
+|       (ADDR)                 |                     address_unit |        131 |        131 |       0 |    0 |    22 |      0 |      0 |          0 |
+|       TWIDDLE_RESOLVE        |                 twiddle_resolver |        178 |        178 |       0 |    0 |    65 |      0 |      0 |          0 |
+|     BF_CIRCUIT               |                     butterfly2x2 |       3120 |       3020 |       0 |  100 |  2265 |      0 |      0 |          8 |
+|       (BF_CIRCUIT)           |                     butterfly2x2 |         72 |         24 |       0 |   48 |   240 |      0 |      0 |          0 |
+|       BF1_1                  |                        butterfly |        620 |        606 |       0 |   14 |   507 |      0 |      0 |          2 |
+|         (BF1_1)              |                        butterfly |        508 |        494 |       0 |   14 |   388 |      0 |      0 |          2 |
+|         REDUCER              |                       Barrett_20 |        112 |        112 |       0 |    0 |   119 |      0 |      0 |          0 |
+|           (REDUCER)          |                       Barrett_20 |         55 |         55 |       0 |    0 |     0 |      0 |      0 |          0 |
+|       BF1_2                  |                      butterfly_9 |        629 |        617 |       0 |   12 |   509 |      0 |      0 |          2 |
+|         (BF1_2)              |                      butterfly_9 |        517 |        505 |       0 |   12 |   388 |      0 |      0 |          2 |
+|         REDUCER              |                       Barrett_16 |        112 |        112 |       0 |    0 |   121 |      0 |      0 |          0 |
+|           (REDUCER)          |                       Barrett_16 |         55 |         55 |       0 |    0 |     0 |      0 |      0 |          0 |
+|       BF2_1                  |                     butterfly_10 |        990 |        976 |       0 |   14 |   507 |      0 |      0 |          2 |
+|         (BF2_1)              |                     butterfly_10 |        878 |        864 |       0 |   14 |   388 |      0 |      0 |          2 |
+|         REDUCER              |                       Barrett_12 |        112 |        112 |       0 |    0 |   119 |      0 |      0 |          0 |
+|           (REDUCER)          |                       Barrett_12 |         55 |         55 |       0 |    0 |     0 |      0 |      0 |          0 |
+|       BF2_2                  |                     butterfly_11 |        816 |        804 |       0 |   12 |   502 |      0 |      0 |          2 |
+|         (BF2_2)              |                     butterfly_11 |        704 |        692 |       0 |   12 |   383 |      0 |      0 |          2 |
+|         REDUCER              |                          Barrett |        112 |        112 |       0 |    0 |   119 |      0 |      0 |          0 |
+|           (REDUCER)          |                          Barrett |         55 |         55 |       0 |    0 |     0 |      0 |      0 |          0 |
+|     DELAY_TWIDDLE            |                         NTT_PIPO |        165 |        117 |       0 |   48 |    92 |      0 |      0 |          0 |
+|     FIFO                     |                         ntt_fifo |       1130 |       1130 |       0 |    0 |   626 |      0 |      0 |          0 |
+|       PISO_D                 |    ntt_fifo_piso__parameterized2 |        127 |        127 |       0 |    0 |   192 |      0 |      0 |          0 |
+|       PISO_A                 |                    ntt_fifo_piso |         74 |         74 |       0 |    0 |   120 |      0 |      0 |          0 |
+|       PISO_B                 |    ntt_fifo_piso__parameterized0 |        828 |        828 |       0 |    0 |   168 |      0 |      0 |          0 |
+|       PISO_C                 |    ntt_fifo_piso__parameterized1 |         98 |         98 |       0 |    0 |   144 |      0 |      0 |          0 |
+|     TWIDDLE_RAM1             |                    dual_port_rom |        184 |        184 |       0 |    0 |    46 |      0 |      0 |          0 |
+|     TWIDDLE_RAM2             |                  dual_port_rom_8 |        185 |        185 |       0 |    0 |    46 |      0 |      0 |          0 |
++------------------------------+----------------------------------+------------+------------+---------+------+-------+--------+--------+------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+
